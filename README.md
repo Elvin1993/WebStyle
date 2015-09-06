@@ -25,7 +25,6 @@
 属性
 1.双引号属性值，不要使用单引号。
 2.省略type属性。使用style、link、script，不用指定type属性，因为 text/css 和 text/javascript 分别是他们的默认值。
-
 3.省略Boolean属性值。Boolean属性不用添加取值，disabled,checked,selected等。
 4.省略url类属性资源协议头。
 5.属性顺序。html属性应该按照特定的顺序出现以保证易读性。class->id,name->data-*->src,for,type,href->title,alt->aria-*,role。
@@ -36,14 +35,13 @@
 1.避免冗余标签。
 2.避免JS生成标签。
 3.段落文字应该用<p>，避免使用<br>。
-4.列表项放<ul>、<ol>、<dl>，不要使用一系列的<div>或<p>
+4.列表项放<ul>,<ol>,<dl>,不要使用一系列的<div>或<p>。
 5.<input>使用for属性绑定<label>。
 6.使用<label>标签包裹radio或checkbox和他们的文字，不用再使用for属性。
-7.使用单选、复选替代下拉菜单。（radio or checkbox instead of select menu）
+7.使用单选、复选替代下拉菜单。（radio or checkbox instead of select menu）。
 8.form button应制定type类型，使用type="submit"、type="reset"或type="button"。
 9.首要的表单按钮首先出现(在DOM中)，尤其是适用多个提交按钮的场合。视图中显示的顺序可以利用css修改。
 10.有效使用<thead>、<tfoot>、<tbody>、<th>（scope属性）。可以把<tfoot>放<tbody>前提高加载速度。
-
 
 dome:
 <html>
@@ -178,7 +176,4 @@ XHTML文件中id的命名
 版权：copyright
 
 Javascript:
-
-
-
 http://www.css88.com/archives/5366
