@@ -34,8 +34,8 @@
 元素
 1.避免冗余标签。
 2.避免JS生成标签。
-3.段落文字应该用<p>，避免使用<br>。
-4.列表项放<ul>,<ol>,<dl>,不要使用一系列的<div>或<p>。
+3.段落文字应该用p，避免使用br。
+4.列表项放ul,ol,dl,不要使用一系列的div或p。
 5.<input>使用for属性绑定<label>。
 6.使用<label>标签包裹radio或checkbox和他们的文字，不用再使用for属性。
 7.使用单选、复选替代下拉菜单。（radio or checkbox instead of select menu）。
